@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>學生訂餐系統(SLOS) | 主頁</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!-- link tab icon -->
+    <link rel="icon" href="../media/icons/slos.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap" rel="stylesheet">
+</head>
+<body class="Vflex-center">
+    <div id="container">
+        <div id="greeting">
+            <span class="fontsizeOne"><b>學生訂餐系統</b></span><br>
+            <span class="fontsizeTwo">伊利沙伯中學舊生會中學</span><br>
+            <span class="fontsizeTwo">蔣尚琦&nbsp;</span>
+            <span id="date" class="fontsizeTwo"></span>
+        </div>
+        
+        <div id="menu">
+            <button class="option Vflex-center" onclick="window.open('thismonth.html', '_self');">
+                <span id="thisMonth">本月訂餐</span>
+            </button>
+
+            <button class="option Vflex-center">
+                <span>下個月訂餐</span>
+            </button>
+
+            <button class="option Vflex-center">
+                <span>個人檔案</span>
+            </button>
+
+            <button class="option Vflex-center" onclick="window.open('../login.html', '_self');">
+                <span>登出</span>
+            </button>
+        </div>
+
+        
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
