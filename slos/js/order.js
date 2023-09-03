@@ -11,6 +11,7 @@ var daysInMonth = new Date(year, month, 0).getDate();
 
 document.getElementById('dueDate').innerHTML = String(year) + '年' + String(month - 1) + '月' + String(new Date(year, month - 1, 0).getDate()) + '日';
 document.getElementById('orderID').innerHTML = (Math.random() * 10000000000).toFixed();
+document.getElementById('orderFormTitle').innerHTML = String(year) + '年' + String(month) + '月訂餐表格';
 
 for(let i = 1; i <= daysInMonth; i++) {
     var day = new Date(String(month) + '/' + String(i) + '/' + String(year)).getDay();
