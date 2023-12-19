@@ -1,0 +1,61 @@
+html {
+    min-height: 100%;
+}
+
+
+body {
+    background: rgb(255,206,168);
+    background: linear-gradient(150deg, rgba(255,206,168,1) 50%, rgba(252,176,69,1) 100%);
+    background-size: cover;
+    min-height: 100%;
+}
+
+#profileWrap {
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 0 20px;
+}
+
+#profile {
+    width: 100%;
+    max-width: 768px;
+    justify-content: space-between;
+}
+
+#profile img {
+    width: 35%;
+    max-width: 200px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+hr {
+    margin: 0;
+}
+
+#banner1 {
+    padding-bottom: 20px;
+}
+
+.box {
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 80%;
+    max-width: 768px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+.box img {
+    width: 60px;
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
