@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>學生訂餐系統(SLOS) | 下個月訂餐</title>
+    <link rel="stylesheet" href="css/order.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="css/navbar.css">
+
+    <!-- link tab icon -->
+    <link rel="icon" href="../media/icons/logo.png">
+</head>
+<body>    
+    <div id="navbarWrap" class="Vflex-center">
+        <div id="navbar">
+            <b style="color: white;"><a class="clickable" onclick="confirmExit();" style="text-decoration: none; color: white;">主頁</a> > 下月訂餐</b>
+        </div>
+    </div>
+    <div class="pageTitleWrap Vflex-center">
+        <div class="pageTitle">
+            <br>
+            <span class="fontsizeTwo"><b>下月訂餐</b></span><br><br>
+            <button class="redbutton" onclick="confirmExit();"><b>返回</b></button>
+        </div>
+        <br>
+    </div>
+
+
+    <div class="banner Vflex-center" id="banner1">
+        <span class="fontsizeTwo"><b id="orderFormTitle"></b></span>
+        <table id="studentInfo">
+            <tr><th>姓名</th><td>陳允行</td></tr>
+            <tr><th>班別</th><td>6D</td></tr>
+            <tr><th>系統編號</th><td id="orderID"></td></tr>
+            <tr><th>應付餐費</th><td>$240</td></tr>
+            <tr><th>訂餐狀態</th><td>未訂餐</td></tr>
+            <tr><th>訂餐截止日期</th><td id="dueDate"></td></tr>
+        </table>
+
+        <form id="nextMonthOrderForm" action="orderSuccess.html" onsubmit="confirmSubmit(event)">
+            <table id="nextMonthOrder">
+                <!-- <tr><th>日期</th><th>星期</th><th>A餐</th><th>B餐</th><th>C餐</th><th>D餐</th></tr>
+                <tr>
+                    <td>9月1日</td>
+                    <td>一</td>
+                    <td><label for="202391A">鮮茄鷄粒飯</label><input type="radio" id="202391A" name="202391"></td>
+                    <td><label for="202391B">免治(豬)肉碎蒸蛋粟米飯</label><input type="radio" id="202391B" name="202391"></td>
+                    <td><label for="202391C">蒜香免治牛撈通粉</label><input type="radio" id="202391C" name="202391"></td>
+                    <td><label for="202391D">雙菇炆眉豆飯</label><input type="radio" id="202391D" name="202391"></td>
+                </tr> -->
+            </table>
+            <div style="width: 100%;" class="Hflex-center">
+                <input type="submit" class="redbutton" style="margin: 5px;" value="提交">
+                <input type="reset" class="redbutton" onclick="confirmReset(event);" style="margin: 5px;" value="重設">
+            </div>
+        </form>
+        
+        
+    </div>
+    <script src="js/order.js" class="redbutton"></script>
+</body>
+</html>
+
+

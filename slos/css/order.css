@@ -1,0 +1,72 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    background: rgb(255,206,168);
+    background: linear-gradient(150deg, rgba(255,206,168,1) 50%, rgba(252,176,69,1) 100%);
+    background-size: cover;
+    min-height: 100%;
+}
+
+.pageTitleWrap {
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 0 20px;
+}
+
+.pageTitle {
+    max-width: 768px;
+    width: 100%;
+}
+
+.banner {
+    padding: 20px 0;
+}
+
+table, td, th {
+    border-collapse: collapse;
+    border: solid 1px;
+}
+
+th, td {
+    padding: 7px;
+}
+
+th {
+    background-color: rgb(241, 157, 0);
+    color: white;
+    border-color: black;
+    text-align: center;
+}
+
+td {
+    background-color: rgba(255,255,255,0.8);
+}
+
+.orderDate{
+    text-align: center;
+}
+
+#studentInfo {
+    width: 90%;
+    max-width: 768px;
+    margin-top: 20px;
+}
+
+#nextMonthOrder {
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+}
+
+form {
+    width: 90%;
+    max-width: 768px;
+}
+
+.possibleAllergy {
+    color: red;
+    border-color: black;
+}
+
